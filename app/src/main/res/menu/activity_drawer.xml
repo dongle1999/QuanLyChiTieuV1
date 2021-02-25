@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Trang Chủ" />
+        <item
+            android:id="@+id/nav_dompet"
+            android:icon="@drawable/baseline_account_balance_wallet_24"
+            android:title="Ví của tôi" />
+    </group>
+
+    <item android:title="Khoản thu chi">
+        <menu>
+            <item
+                android:id="@+id/nav_kategori_pendapatan"
+                android:icon="@drawable/baseline_add_circle_24"
+                android:title="Thu nhập" />
+            <item
+                android:id="@+id/nav_kategori_pengeluaran"
+                android:icon="@drawable/baseline_remove_circle_24"
+                android:title="Chi tiêu" />
+
+        </menu>
+    </item>
+
+    <item android:title="Báo cáo">
+        <menu>
+            <item
+                android:id="@+id/nav_monthly"
+                android:icon="@drawable/ic_menu_pie_chart"
+                android:title="Hàng tháng" />
+        </menu>
+    </item>
+
+    <item android:title=" Khác">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">money manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">money manager</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Reset</string>
+
+    <string name="aboutheader">money manager; 2020</string>
+    <string name="abouttext">money manager lá ứng dụng quản lý chi tiêu đơn giản và tiết kiệm thời gian.</string>
+
+    <string name="messageWithLink"><a href="https://wahidari.gitlab.io/">wahidari.gitlab.io</a></string>
+    <string name="messageWithLink2"><a href="https://fianekame.github.io/">fianekame.github.io</a></string>
+    <string name="messageWithLink3"><a href="https://www.flaticon.com/">www.flaticon.com</a></string>
+</resources>
